@@ -1,0 +1,6 @@
+artifact_location: mlflow-artifacts:/589664217002768997
+creation_time: 1719557625008
+experiment_id: '589664217002768997'
+last_update_time: 1719557625008
+lifecycle_stage: active
+name: House Price Prediction with Decision Tree

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/589664217002768997/d25e4343be7a4385ae37a74f5a6d2c10/artifacts
+end_time: 1719557628632
+entry_point_name: ''
+experiment_id: '589664217002768997'
+lifecycle_stage: active
+run_id: d25e4343be7a4385ae37a74f5a6d2c10
+run_name: exultant-frog-590
+run_uuid: d25e4343be7a4385ae37a74f5a6d2c10
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719557625277
+status: 3
+tags: []
+user_id: Raghu Prasad
