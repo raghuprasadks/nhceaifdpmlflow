@@ -27,3 +27,18 @@ python -m venv venv
 pip install scikit-learn,pandas,mlflow
 pip install --upgrade setuptools
 mlflow ui
+
+7. Program files
+search kaushalya tech in google
+click on kaushalya.tech link
+git
+repositories
+nhceaifdpmlflow
+click programs
+download 
+houseprices.csv
+linearregression.py
+paste files into programs folder
+python linearregression.py
+
+

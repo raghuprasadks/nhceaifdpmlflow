@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/385793825907153585/484bcd38bbef4cbaa5396b57a3088594/artifacts
+end_time: 1719555839630
+entry_point_name: ''
+experiment_id: '385793825907153585'
+lifecycle_stage: active
+run_id: 484bcd38bbef4cbaa5396b57a3088594
+run_name: gifted-donkey-963
+run_uuid: 484bcd38bbef4cbaa5396b57a3088594
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719555836246
+status: 3
+tags: []
+user_id: Raghu Prasad

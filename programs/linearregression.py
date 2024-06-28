@@ -2,6 +2,8 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error
+import mlflow
+import mlflow.sklearn
 
 # Step 2: Load the data
 data = pd.read_csv('houseprices.csv')
@@ -9,8 +11,8 @@ data = pd.read_csv('houseprices.csv')
 # Step 3: Preprocess the data
 # Assuming 'Price' is the target and the rest are features
 # This step might need adjustments based on the actual data structure
-X = data.drop('Price', axis=1)
-y = data['Price']
+X = data.drop('price', axis=1)
+y = data['price']
 
 # Handling missing values, encoding, etc., should be done here
 
@@ -30,5 +32,26 @@ print(f"Mean Squared Error: {mse}")
 
 # Step 9: Use the model for predictions (example)
 # Replace X_new with new data points for prediction
-# X_new = ...
-# predictions_new = model.predict(X_new)
+X_new = [[7000]]
+predictions_new = model.predict(X_new)
+print("prediced value ",predictions_new)
+
+mlflow.set_experiment("House Price Prediction")
+
+with mlflow.start_run():
+    # Step 8: Evaluate the model
+    predictions = model.predict(X_test)
+    mse = mean_squared_error(y_test, predictions)
+    print(f"Mean Squared Error: {mse}")
+
+    # Log metrics
+    mlflow.log_metric("mse", mse)
+
+    # Step 9: Use the model for predictions (example)
+    # Replace X_new with new data points for prediction
+    X_new = [[7000]]
+    predictions_new = model.predict(X_new)
+    print("Predicted value ", predictions_new)
+
+    # Log the model
+    mlflow.sklearn.log_model(model, "linear_regression_model")
