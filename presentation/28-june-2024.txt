@@ -5,11 +5,14 @@ Agenda:
 3. MLOps
 4. Azure Cloud Platform
 
-
 Steps 
 1. create programs folder
 2. open in visual studio code
 https://code.visualstudio.com/download
+
+Azure 
+portal.azure.com
+
 
 python - https://www.python.org/downloads/
 
@@ -42,6 +45,14 @@ paste files into programs folder
 python linearregression.py
 
 https://azure.microsoft.com/
+Steps
+1. Login  - portal.azure.com
+2. Click azure machine learning
+3. create new workspace
+
+
+
+
 
 
 
