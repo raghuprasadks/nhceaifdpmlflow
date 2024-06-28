@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/589664217002768997/1abf9f5035e24d4c908a1887094497b1/artifacts
+end_time: 1719559144809
+entry_point_name: ''
+experiment_id: '589664217002768997'
+lifecycle_stage: active
+run_id: 1abf9f5035e24d4c908a1887094497b1
+run_name: whimsical-stoat-707
+run_uuid: 1abf9f5035e24d4c908a1887094497b1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719559141543
+status: 3
+tags: []
+user_id: Raghu Prasad

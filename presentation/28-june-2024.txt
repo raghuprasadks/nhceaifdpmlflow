@@ -41,4 +41,7 @@ linearregression.py
 paste files into programs folder
 python linearregression.py
 
+https://azure.microsoft.com/
+
+
 
