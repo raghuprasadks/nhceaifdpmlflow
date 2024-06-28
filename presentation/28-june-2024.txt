@@ -1,0 +1,29 @@
+Agenda:
+
+1. DEVOPS Vs MLOps
+2. Tools/softwares for MLOps
+3. MLOps
+4. Azure Cloud Platform
+
+
+Steps 
+1. create programs folder
+2. open in visual studio code
+https://code.visualstudio.com/download
+
+python - https://www.python.org/downloads/
+
+C:\Users\Raghu Prasad\AppData\Local\Programs\Python\Python311
+C:\Users\Raghu Prasad\AppData\Local\Programs\Python\Python311\Scripts
+
+3. create a virtual environment
+
+python -m venv venv
+
+5. Activate virtual environment
+.\venv\Scripts\activate
+
+6. Install scikit-learn,pandas,mlflow
+pip install scikit-learn,pandas,mlflow
+pip install --upgrade setuptools
+mlflow ui
